@@ -1,15 +1,14 @@
 {
-  "name": "@vueapps/app1",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@vueapps/components": "workspace:^",
-    "@vueapps/utils": "workspace:^"
-  }
+	"name": "@vueapps/app1",
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vue-tsc -b && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@vueapps/components": "workspace:^",
+		"@vueapps/utils": "workspace:^"
+	}
 }
